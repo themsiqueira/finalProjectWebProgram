@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php
-require 'vendor/autoload.php';
+require('../vendor/autoload.php');
 echo "<img src='assets/todo_list_logo.png' id='logo'>";
 echo "<br>";
 

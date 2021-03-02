@@ -5,9 +5,6 @@
     "homepage": "https://github.com/themsiqueira/finalProjectWebProgram",
     "description": "Final work web dev",
     "keywords": ["todo", "list"],
-    "require-dev": {
-        "heroku/heroku-buildpack-php" : "dev-master"
-    },
     "authors": [
         {
             "name": "themsiqueira",
@@ -16,5 +13,8 @@
     ],
     "require": {
         "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {"Acme\\": "src/"}
     }
 }
