@@ -14,7 +14,7 @@
     "require": {
         "php": ">=7.2"
     },
-    "autoload": {
-        "psr-4": {"Acme\\": "src/"}
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
     }
 }
