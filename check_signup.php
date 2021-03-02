@@ -49,7 +49,7 @@ $stmt->bind_param("ss", $username, $hashed);
 $stmt->execute();
 
 $value = "successful";
-header("Location: login.php?user=$value"); 
+header("Location: index.php?user=$value"); 
 } /*verify if there is a duplicate user */
 
 $conn->close();

@@ -231,7 +231,7 @@ if(isset($_SESSION["username"])  && isset($_GET["task_id"]))
 	$result = $stmt->get_result();
 	if($result->num_rows<=0)
 {
-	echo "<script>location.href='login.php'</script>";
+	echo "<script>location.href='index.php'</script>";
 }			
 	$stmt->close();
   

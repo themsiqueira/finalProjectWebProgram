@@ -49,7 +49,7 @@ if(password_verify($_POST["password"], $hash))
 else
 {
 $password ="wrong";	
-header("Location:login.php?password=$password");
+header("Location:index.php?password=$password");
 /*verifies if user has entered correct password*/
 }
 }
@@ -59,14 +59,14 @@ else
 {
 
 $user ="none";	
-header("Location:login.php?user=$user");
+header("Location:index.php?user=$user");
 	
 }
 }
 
 else
 {
-header("Location:login.php");
+header("Location:index.php");
 } /*verify user not directly accessing this page */
 
 ?>

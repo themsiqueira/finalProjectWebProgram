@@ -24,7 +24,7 @@ echo "<h1 id='exit_title'>Thanks For Coming! Bye Now!</h1>";
 }
 else
 {
-header("Location:login.php");
+header("Location:index.php");
 }
 ?>
 

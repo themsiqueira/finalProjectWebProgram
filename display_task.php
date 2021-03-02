@@ -361,7 +361,7 @@ $conn->close();
 }
 else
 {
-echo"<script>location.href='login.php'</script>";	
+echo"<script>location.href='index.php'</script>";	
 }
 
 ?>	
