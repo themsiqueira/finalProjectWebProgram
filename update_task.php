@@ -6,7 +6,7 @@
 	?>
 <head><title></title>
 
- <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" type="text/css" href="assets/style.css">
 
 	<script>
  
@@ -208,7 +208,7 @@
 if(isset($_SESSION["username"])  && isset($_GET["task_id"]))
 {
 	 
-	echo "<img src='todo_list_logo.png' id='ulogo'>";
+	echo "<img src='assets/todo_list_logo.png' id='ulogo'>";
 
 	$DBHOST = "remotemysql.com";
 	$DBUSER = "aFJFlCDpk1";

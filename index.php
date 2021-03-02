@@ -1,13 +1,13 @@
 <html>
 <head><title></title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
  
 </head>
 <body>
 <?php
 
-echo "<img src='todo_list_logo.png' id='logo'>";
+echo "<img src='assets/todo_list_logo.png' id='logo'>";
 echo "<br>";
 
 

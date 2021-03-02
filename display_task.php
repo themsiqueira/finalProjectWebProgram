@@ -1,7 +1,7 @@
 <html>
 <head><title></title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 	<?php
 		session_start();
 	?>
@@ -210,7 +210,7 @@ $conn = new mysqli($DBHOST, $DBUSER, $DBPWD, $DBNAME);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-echo "<img src='todo_list_logo.png' id='logo'>";
+echo "<img src='assets/todo_list_logo.png' id='logo'>";
 
 
 
