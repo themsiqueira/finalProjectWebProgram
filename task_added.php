@@ -12,10 +12,10 @@ session_start();
 
 if(isset($_POST["task"]) && $_POST["task"] !="" && isset($_SESSION["username"]) && isset($_POST["month"]) && isset($_POST["day"])  && isset($_POST["year"]))
 {
-$DBHOST = "localhost";
-$DBUSER = "root";
-$DBPWD = "";
-$DBNAME = "to-do-list";
+$DBHOST = "remotemysql.com";
+$DBUSER = "aFJFlCDpk1";
+$DBPWD = "TCntTtN2dQ";
+$DBNAME = "aFJFlCDpk1";
  
 
 $conn = new mysqli($DBHOST, $DBUSER, $DBPWD, $DBNAME);

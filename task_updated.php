@@ -31,10 +31,10 @@ else if(!isset($_POST["day"]))
 
 else
 {
-$DBHOST = "localhost";
-$DBUSER = "root";
-$DBPWD = "";
-$DBNAME = "to-do-list";
+$DBHOST = "remotemysql.com";
+$DBUSER = "aFJFlCDpk1";
+$DBPWD = "TCntTtN2dQ";
+$DBNAME = "aFJFlCDpk1";
 $task = $_POST["task"];
 $task_id = $_POST["task_id"];
 

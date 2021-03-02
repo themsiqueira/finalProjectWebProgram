@@ -201,10 +201,10 @@
 if(isset($_SESSION["username"]))
 {
 
-$DBHOST = "localhost";
-$DBUSER = "root";
-$DBPWD = "";
-$DBNAME = "to-do-list";
+$DBHOST = "remotemysql.com";
+$DBUSER = "aFJFlCDpk1";
+$DBPWD = "TCntTtN2dQ";
+$DBNAME = "aFJFlCDpk1";
 $conn = new mysqli($DBHOST, $DBUSER, $DBPWD, $DBNAME);	
 
 if ($conn->connect_error) {

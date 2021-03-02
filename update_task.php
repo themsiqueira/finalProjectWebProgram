@@ -210,10 +210,10 @@ if(isset($_SESSION["username"])  && isset($_GET["task_id"]))
 	 
 	echo "<img src='todo_list_logo.png' id='ulogo'>";
 
-	$DBHOST = "localhost";
-	$DBUSER = "root";
-	$DBPWD = "";
-	$DBNAME = "to-do-list";
+	$DBHOST = "remotemysql.com";
+	$DBUSER = "aFJFlCDpk1";
+	$DBPWD = "TCntTtN2dQ";
+	$DBNAME = "aFJFlCDpk1";
  
 	$task_id = $_GET["task_id"];
 
