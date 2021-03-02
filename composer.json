@@ -5,6 +5,9 @@
     "homepage": "https://github.com/themsiqueira/finalProjectWebProgram",
     "description": "Final work web dev",
     "keywords": ["todo", "list"],
+    "require-dev": {
+        "heroku/heroku-buildpack-php" : "dev-master"
+    },
     "authors": [
         {
             "name": "themsiqueira",
