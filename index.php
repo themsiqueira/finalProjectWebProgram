@@ -2,11 +2,11 @@
 <head><title></title>
 
     <link rel="stylesheet" type="text/css" href="assets/style.css">
- 
+    
 </head>
 <body>
 <?php
-
+require 'vendor/autoload.php';
 echo "<img src='assets/todo_list_logo.png' id='logo'>";
 echo "<br>";
 

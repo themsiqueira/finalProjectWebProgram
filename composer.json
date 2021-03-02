@@ -1,0 +1,17 @@
+
+{
+    "name": "todo/list",
+    "license": "MIT",
+    "homepage": "https://github.com/themsiqueira/finalProjectWebProgram",
+    "description": "Final work web dev",
+    "keywords": ["todo", "list"],
+    "authors": [
+        {
+            "name": "themsiqueira",
+            "email": "mateussiqueiracarneiro@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    }
+}
